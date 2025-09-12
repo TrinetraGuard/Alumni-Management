@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://allumino.teamtrinetra.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /problem
+Allow: /solution
+Allow: /features
+Allow: /tech
+Allow: /feasibility
+Allow: /impact
+Allow: /research
+Allow: /team
+Allow: /demo
+Allow: /faq
+Allow: /login
