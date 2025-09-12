@@ -1,4 +1,4 @@
-import { ArrowRight, Award, Brain, CheckCircle, DollarSign, Download, Globe, Shield, Target, TrendingUp, Users, X, Zap } from 'lucide-react'
+import { ArrowRight, Brain, CheckCircle, DollarSign, Download, Globe, Shield, Target, TrendingUp, Users, X, Zap } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { getSEOData, useSEO } from '../lib/seo'
 
@@ -49,12 +49,6 @@ const HomePage = () => {
     { name: "Mobile", color: "text-pink-500" }
   ]
 
-  const achievements = [
-    "Smart India Hackathon 2024 Finalists",
-    "Best AI Innovation Award 2024",
-    "Top 10 Blockchain Projects 2024",
-    "Excellence in Alumni Engagement"
-  ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100">
@@ -396,43 +390,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Achievements */}
-      <section className="py-20 bg-gradient-to-r from-orange-100 to-yellow-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Recognition & Achievements
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Proud to be recognized for our innovative approach to alumni engagement
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {achievements.map((achievement, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="text-center p-6 bg-white rounded-xl shadow-sm hover-lift"
-              >
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-orange-600" />
-                </div>
-                <h4 className="font-semibold text-gray-900 text-sm">{achievement}</h4>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-orange-500 to-orange-600">
