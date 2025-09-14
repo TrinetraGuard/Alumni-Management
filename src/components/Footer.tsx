@@ -1,19 +1,19 @@
 import {
-  Award,
-  Download,
-  ExternalLink,
-  Github,
-  Heart,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Users
+    Award,
+    Download,
+    ExternalLink,
+    Github,
+    Heart,
+    Linkedin,
+    Mail,
+    MapPin,
+    Phone,
+    Users
 } from 'lucide-react'
 
-import { Button } from './ui/button'
-import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import { Button } from './ui/button'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -184,13 +184,13 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-gray-300">
               <span>© {currentYear} Team Trinetra. Made with</span>
               <Heart className="w-4 h-4 text-orange-400" />
-              <span>for SIH 2024</span>
+              <span>for SIH 2025</span>
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-300">
               <div className="flex items-center space-x-2">
                 <Award className="w-4 h-4 text-orange-400" />
-                <span>Smart India Hackathon 2024</span>
+                <span>Smart India Hackathon 2025</span>
               </div>
               <span>•</span>
               <div className="flex items-center space-x-2">

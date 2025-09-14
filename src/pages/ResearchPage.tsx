@@ -1,17 +1,17 @@
 import {
-  Award,
-  BarChart3,
-  BookOpen,
-  Brain,
-  CheckCircle,
-  ExternalLink,
-  FileText,
-  Globe,
-  Shield,
-  Target,
-  TrendingUp,
-  XCircle,
-  Zap
+    Award,
+    BarChart3,
+    BookOpen,
+    Brain,
+    CheckCircle,
+    ExternalLink,
+    FileText,
+    Globe,
+    Shield,
+    Target,
+    TrendingUp,
+    XCircle,
+    Zap
 } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { getSEOData, useSEO } from '../lib/seo'
@@ -201,7 +201,7 @@ const ResearchPage = () => {
       trend: 'AI Integration',
       description: 'Machine learning and natural language processing in educational platforms',
       impact: 'High',
-      timeline: '2024-2025',
+      timeline: '2025-2025',
       icon: <Brain className="w-6 h-6" />,
       color: 'bg-blue-100 text-blue-600'
     },
@@ -217,7 +217,7 @@ const ResearchPage = () => {
       trend: 'Mobile-First Design',
       description: 'Responsive and native mobile applications for better engagement',
       impact: 'High',
-      timeline: '2024',
+      timeline: '2025',
       icon: <Globe className="w-6 h-6" />,
       color: 'bg-purple-100 text-purple-600'
     },
@@ -225,7 +225,7 @@ const ResearchPage = () => {
       trend: 'Cloud Migration',
       description: 'Scalable cloud infrastructure for global accessibility',
       impact: 'High',
-      timeline: '2024',
+      timeline: '2025',
       icon: <Zap className="w-6 h-6" />,
       color: 'bg-orange-100 text-orange-600'
     }

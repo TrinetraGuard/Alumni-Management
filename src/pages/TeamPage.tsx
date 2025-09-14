@@ -12,78 +12,71 @@ const TeamPage = () => {
   const teamMembers = [
     {
       name: "Nisarga Lokhande",
-      role: "Full Stack Developer & AI Engineer",
+      role: "Full Stack Developer & AI/ML Engineer",
       image: "https://media.licdn.com/dms/image/v2/D5603AQFf0LUpm6vKGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723629889029?e=1760572800&v=beta&t=OA6Ov1NauiDCR-o5X2X8DJTLxoLIjSn7pP8wDYVpHhc",
-      description: "Expert in React, Node.js, and machine learning with 3+ years of experience in building scalable web applications and AI solutions.",
+      description: "Expert in full-stack backend development and AI/ML with comprehensive technical skills. Specializes in building robust server-side applications, machine learning models, and scalable backend architectures.",
       github: "https://github.com/nikobuddy",
       linkedin: "https://www.linkedin.com/in/nslokhande/",
       email: "itzsram@gmail.com",
-      skills: [
-        // "React", "Node.js", "Python", "TensorFlow", "AWS"
-        
-      ]
+      skills: ["Python", "Node.js", "TensorFlow", "PyTorch", "MongoDB", "PostgreSQL", "AWS", "Docker", "Machine Learning", "API Development"]
     },
     {
       name: "Rushikesh Landge",
-      role: "Blockchain Developer & Security Expert",
+      role: "Frontend Developer & UI Specialist",
       image: "https://media.licdn.com/dms/image/v2/D5635AQGroe21fQanrA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735480011094?e=1758297600&v=beta&t=dyVtYJgMMtwmXAX6e0v6Wm5HDFaHxl4tNG5k7sobKPM",
-      description: "Specialized in blockchain development, smart contracts, and cybersecurity with expertise in Ethereum, Hyperledger, and Web3 technologies.",
+      description: "Specialized in frontend development with expertise in React, Node.js, and Tailwind CSS for UI design. Creates responsive, interactive, and visually appealing user interfaces with modern web technologies.",
       github: "https://github.com/rushikesh",
       linkedin: "https://linkedin.com/in/rushikesh-landge",
       email: "rushikesh@trinetra.com",
-      skills: [
-        // "Solidity", "Ethereum", "Hyperledger", "Web3", "Cybersecurity"
-      ]
+      skills: ["React", "Node.js", "Tailwind CSS", "JavaScript", "TypeScript", "HTML5", "CSS3", "Responsive Design", "UI/UX", "Frontend Architecture"]
     },
     {
       name: "Dhanashri Sonawane",
-      role: "Mobile Developer & UX Designer",
+      role: "UI/UX Designer & Design Strategist",
       image: "https://media.licdn.com/dms/image/v2/D4E03AQGJwowFc76IwA/profile-displayphoto-shrink_400_400/B4EZQnr875HEAg-/0/1735832622303?e=1760572800&v=beta&t=7L87MxjstDzNGMnpEahyvWMU4_932hhZUZIC2XNs0O0",
-      description: "Flutter and React Native expert with a passion for creating intuitive user experiences and mobile-first design principles.",
+      description: "Expert in Figma for designing comprehensive UI/UX solutions with strategic thinking for project-specific design requirements. Creates intuitive and user-centered design systems.",
       github: "https://github.com/dhanashri",
       linkedin: "https://linkedin.com/in/dhanashri-sonawane",
       email: "dhanashri@trinetra.com",
-      skills: [
-        // "Flutter", "React Native", "UI/UX", "Figma", "Dart"
-      ]
+      skills: ["Figma", "UI/UX Design", "Design Systems", "Wireframing", "Prototyping", "User Research", "Visual Design", "Design Thinking", "Adobe Creative Suite", "Design Strategy"]
     },
     {
       name: "Gayatri Vadge",
-      role: "Data Scientist & ML Engineer",
+      role: "DevOps Engineer & CI/CD Specialist",
       image: "https://media.licdn.com/dms/image/v2/D5635AQG9Eh2ZJwFibQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719404676846?e=1758297600&v=beta&t=0hDCXjJpSsu2NDNvXxsbgXkkgPPr5Pv4ctr-Vk-B4I0",
-      description: "Machine learning specialist with expertise in recommendation systems, natural language processing, and data analytics for alumni engagement.",
+      description: "Specialized in CI/CD tools and deployment automation with expertise in streamlining development workflows and ensuring reliable software delivery pipelines.",
       github: "https://github.com/gayatri",
       linkedin: "https://linkedin.com/in/gayatri-malegao",
       email: "gayatri@trinetra.com",
-      skills: ["Python", "PyTorch", "NLP", "Data Analysis", "MLOps"]
+      skills: ["Jenkins", "GitHub Actions", "Docker", "Kubernetes", "AWS", "CI/CD", "DevOps", "Automation", "Infrastructure", "Deployment"]
     },
     {
       name: "Chaitali Sancheti",
-      role: "DevOps Engineer & Cloud Architect",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
-      description: "Cloud infrastructure expert specializing in AWS, Kubernetes, and CI/CD pipelines for scalable and reliable deployments.",
+      role: "Non-Technical Specialist & Communication Lead",
+      image: "../imgs/cs.png",
+      description: "Specialized in non-technical aspects including presentation design, documentation, and stakeholder communication. Expert in translating complex technical concepts into clear, accessible content for all audiences.",
       github: "https://github.com/chaitali",
       linkedin: "https://linkedin.com/in/chaitali-sancheti",
       email: "chaitali@trinetra.com",
-      skills: ["AWS", "Kubernetes", "Docker", "CI/CD", "Terraform"]
+      skills: ["Presentation Design", "Documentation", "Communication", "Stakeholder Management", "Content Strategy", "Visual Communication", "Research", "Analysis", "Project Coordination", "Business Writing"]
     },
     {
       name: "Kalyani Varpe",
-      role: "Product Manager & Business Analyst",
+      role: "Product Strategist & Feature Analyst",
       image: "https://media.licdn.com/dms/image/v2/D4D35AQHIlOL_s2pcPg/profile-framedphoto-shrink_400_400/B4DZkK1tuRGQAs-/0/1756823477545?e=1758297600&v=beta&t=mfwJR4EQeL-r4niX0AMr707aXAWQppy6gMbcWIDrXg4",
-      description: "Product strategy expert with experience in user research, market analysis, and agile project management for tech products.",
+      description: "Strategic thinker specializing in overall feature planning and product development. Expert in analyzing requirements, defining product roadmaps, and ensuring comprehensive feature coverage.",
       github: "https://github.com/kalyani",
       linkedin: "https://www.linkedin.com/in/kalyani-varpe-7724a6319/",
       email: "kalyani@trinetra.com",
-      skills: ["Product Management", "Agile", "User Research", "Analytics", "Strategy"]
+      skills: ["Product Strategy", "Feature Planning", "Requirements Analysis", "Product Roadmap", "Strategic Thinking", "Market Research", "User Stories", "Agile Methodology", "Product Vision", "Stakeholder Alignment"]
     }
   ]
 
 
   const achievements = [
-    "Smart India Hackathon 2024 Finalists",
-    "Best AI Innovation Award 2024",
-    "Top 10 Blockchain Projects 2024",
+    "Smart India Hackathon 2025 Finalists",
+    "Best AI Innovation Award 2025",
+    "Top 10 Blockchain Projects 2025",
     "Excellence in Alumni Engagement Solutions"
   ]
 
