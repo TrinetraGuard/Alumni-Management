@@ -11,9 +11,9 @@ import {
     Users
 } from 'lucide-react'
 
-import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
 import { Button } from './ui/button'
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -117,7 +117,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-orange-400" />
-                  <span className="text-gray-300">+91 98765 43210</span>
+                  <span className="text-gray-300">+91 82757 49101</span>
                 </div>
               </div>
             </motion.div>
