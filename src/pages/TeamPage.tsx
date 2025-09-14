@@ -1,91 +1,113 @@
-import { Award, Code, Github, Linkedin, Mail, Users } from 'lucide-react'
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
-import { getSEOData, useSEO } from '../lib/seo'
+import { Award, Code, Github, Linkedin, Mail, Users } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
+import { getSEOData, useSEO } from "../lib/seo";
 
-import { Button } from '../components/ui/button'
+import { Button } from "../components/ui/button";
 
 const TeamPage = () => {
   // SEO setup
-  const seoData = getSEOData('team')
-  useSEO(seoData)
+  const seoData = getSEOData("team");
+  useSEO(seoData);
 
   const teamMembers = [
     {
       name: "Nisarga Lokhande",
       role: "Full Stack Developer & AI Engineer",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQFf0LUpm6vKGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723629889029?e=1760572800&v=beta&t=OA6Ov1NauiDCR-o5X2X8DJTLxoLIjSn7pP8wDYVpHhc",
-      description: "Expert in React, Node.js, and machine learning with 3+ years of experience in building scalable web applications and AI solutions.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D5603AQFf0LUpm6vKGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723629889029?e=1760572800&v=beta&t=OA6Ov1NauiDCR-o5X2X8DJTLxoLIjSn7pP8wDYVpHhc",
+      description:
+        "Expert in React, Node.js, and machine learning with 3+ years of experience in building scalable web applications and AI solutions.",
       github: "https://github.com/nikobuddy",
       linkedin: "https://www.linkedin.com/in/nslokhande/",
       email: "itzsram@gmail.com",
       skills: [
         // "React", "Node.js", "Python", "TensorFlow", "AWS"
-        
-      ]
+      ],
     },
     {
       name: "Rushikesh Landge",
       role: "Blockchain Developer & Security Expert",
-      image: "https://media.licdn.com/dms/image/v2/D5635AQGroe21fQanrA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735480011094?e=1758297600&v=beta&t=dyVtYJgMMtwmXAX6e0v6Wm5HDFaHxl4tNG5k7sobKPM",
-      description: "Specialized in blockchain development, smart contracts, and cybersecurity with expertise in Ethereum, Hyperledger, and Web3 technologies.",
-      github: "https://github.com/rushikesh",
-      linkedin: "https://linkedin.com/in/rushikesh-landge",
-      email: "rushikesh@trinetra.com",
+      image:
+        "https://media.licdn.com/dms/image/v2/D5635AQGroe21fQanrA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735480011094?e=1758297600&v=beta&t=dyVtYJgMMtwmXAX6e0v6Wm5HDFaHxl4tNG5k7sobKPM",
+      description:
+        "Specialized in blockchain development, smart contracts, and cybersecurity with expertise in Ethereum, Hyperledger, and Web3 technologies.",
+      github: "https://github.com/LandgeRushikesh",
+      linkedin: "https://www.linkedin.com/in/rushikeshlandge/",
+      email: "rushilandge12@gmail.com",
       skills: [
         // "Solidity", "Ethereum", "Hyperledger", "Web3", "Cybersecurity"
-      ]
+      ],
     },
     {
       name: "Dhanashri Sonawane",
       role: "Mobile Developer & UX Designer",
-      image: "https://media.licdn.com/dms/image/v2/D4E03AQGJwowFc76IwA/profile-displayphoto-shrink_400_400/B4EZQnr875HEAg-/0/1735832622303?e=1760572800&v=beta&t=7L87MxjstDzNGMnpEahyvWMU4_932hhZUZIC2XNs0O0",
-      description: "Flutter and React Native expert with a passion for creating intuitive user experiences and mobile-first design principles.",
-      github: "https://github.com/dhanashri",
-      linkedin: "https://linkedin.com/in/dhanashri-sonawane",
-      email: "dhanashri@trinetra.com",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4E03AQGJwowFc76IwA/profile-displayphoto-shrink_400_400/B4EZQnr875HEAg-/0/1735832622303?e=1760572800&v=beta&t=7L87MxjstDzNGMnpEahyvWMU4_932hhZUZIC2XNs0O0",
+      description:
+        "Flutter and React Native expert with a passion for creating intuitive user experiences and mobile-first design principles.",
+      github: "https://github.com/DhanashriSonawane25",
+      linkedin: "https://www.linkedin.com/in/dhanashri-sonawane-a254922b1/",
+      email: "dhanashrisonawane2004@gmail.com",
       skills: [
         // "Flutter", "React Native", "UI/UX", "Figma", "Dart"
-      ]
+      ],
     },
     {
       name: "Gayatri Vadge",
       role: "Data Scientist & ML Engineer",
-      image: "https://media.licdn.com/dms/image/v2/D5635AQG9Eh2ZJwFibQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719404676846?e=1758297600&v=beta&t=0hDCXjJpSsu2NDNvXxsbgXkkgPPr5Pv4ctr-Vk-B4I0",
-      description: "Machine learning specialist with expertise in recommendation systems, natural language processing, and data analytics for alumni engagement.",
-      github: "https://github.com/gayatri",
-      linkedin: "https://linkedin.com/in/gayatri-malegao",
+      image:
+        "https://media.licdn.com/dms/image/v2/D5635AQG9Eh2ZJwFibQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719404676846?e=1758297600&v=beta&t=0hDCXjJpSsu2NDNvXxsbgXkkgPPr5Pv4ctr-Vk-B4I0",
+      description:
+        "Machine learning specialist with expertise in recommendation systems, natural language processing, and data analytics for alumni engagement.",
+      github: "https://github.com/Gayatriwadge02",
+      linkedin: "https://www.linkedin.com/in/gayatri-vadge/",
       email: "gayatri@trinetra.com",
-      skills: ["Python", "PyTorch", "NLP", "Data Analysis", "MLOps"]
+      skills: ["Python", "PyTorch", "NLP", "Data Analysis", "MLOps"],
     },
     {
       name: "Chaitali Sancheti",
       role: "DevOps Engineer & Cloud Architect",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
-      description: "Cloud infrastructure expert specializing in AWS, Kubernetes, and CI/CD pipelines for scalable and reliable deployments.",
+      image:
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+      description:
+        "Cloud infrastructure expert specializing in AWS, Kubernetes, and CI/CD pipelines for scalable and reliable deployments.",
       github: "https://github.com/chaitali",
-      linkedin: "https://linkedin.com/in/chaitali-sancheti",
-      email: "chaitali@trinetra.com",
-      skills: ["AWS", "Kubernetes", "Docker", "CI/CD", "Terraform"]
+      linkedin:
+        "https://www.linkedin.com/in/chaitali-sancheti-5b0225297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      email: "chaitalisancheti@gmail.com",
+      skills: ["AWS", "Kubernetes", "Docker", "CI/CD", "Terraform"],
     },
     {
       name: "Kalyani Varpe",
       role: "Product Manager & Business Analyst",
-      image: "https://media.licdn.com/dms/image/v2/D4D35AQHIlOL_s2pcPg/profile-framedphoto-shrink_400_400/B4DZkK1tuRGQAs-/0/1756823477545?e=1758297600&v=beta&t=mfwJR4EQeL-r4niX0AMr707aXAWQppy6gMbcWIDrXg4",
-      description: "Product strategy expert with experience in user research, market analysis, and agile project management for tech products.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D35AQHIlOL_s2pcPg/profile-framedphoto-shrink_400_400/B4DZkK1tuRGQAs-/0/1756823477545?e=1758297600&v=beta&t=mfwJR4EQeL-r4niX0AMr707aXAWQppy6gMbcWIDrXg4",
+      description:
+        "Product strategy expert with experience in user research, market analysis, and agile project management for tech products.",
       github: "https://github.com/kalyani",
       linkedin: "https://www.linkedin.com/in/kalyani-varpe-7724a6319/",
-      email: "kalyani@trinetra.com",
-      skills: ["Product Management", "Agile", "User Research", "Analytics", "Strategy"]
-    }
-  ]
-
+      email: "varpekalyani7@gmail.com",
+      skills: [
+        "Product Management",
+        "Agile",
+        "User Research",
+        "Analytics",
+        "Strategy",
+      ],
+    },
+  ];
 
   const achievements = [
     "Smart India Hackathon 2024 Finalists",
     "Best AI Innovation Award 2024",
     "Top 10 Blockchain Projects 2024",
-    "Excellence in Alumni Engagement Solutions"
-  ]
+    "Excellence in Alumni Engagement Solutions",
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100 py-20">
@@ -101,7 +123,6 @@ const TeamPage = () => {
             Meet the talented individuals behind Allumino - Team Trinetra
           </p>
         </div>
-
 
         {/* Team Members */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -128,7 +149,7 @@ const TeamPage = () => {
                   <p className="text-sm text-gray-600 mb-4 leading-relaxed">
                     {member.description}
                   </p>
-                  
+
                   {/* Skills */}
                   <div className="flex flex-wrap justify-center gap-2 mb-4">
                     {member.skills.map((skill, skillIndex) => (
@@ -140,13 +161,13 @@ const TeamPage = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="flex justify-center space-x-3">
                     <Button
                       variant="outline"
                       size="icon"
                       className="hover:bg-orange-50 hover:border-orange-300 transition-colors duration-200"
-                      onClick={() => window.open(member.github, '_blank')}
+                      onClick={() => window.open(member.github, "_blank")}
                     >
                       <Github className="w-4 h-4" />
                     </Button>
@@ -154,7 +175,7 @@ const TeamPage = () => {
                       variant="outline"
                       size="icon"
                       className="hover:bg-orange-50 hover:border-orange-300 transition-colors duration-200"
-                      onClick={() => window.open(member.linkedin, '_blank')}
+                      onClick={() => window.open(member.linkedin, "_blank")}
                     >
                       <Linkedin className="w-4 h-4" />
                     </Button>
@@ -162,7 +183,9 @@ const TeamPage = () => {
                       variant="outline"
                       size="icon"
                       className="hover:bg-orange-50 hover:border-orange-300 transition-colors duration-200"
-                      onClick={() => window.open(`mailto:${member.email}`, '_blank')}
+                      onClick={() =>
+                        window.open(`mailto:${member.email}`, "_blank")
+                      }
                     >
                       <Mail className="w-4 h-4" />
                     </Button>
@@ -187,11 +210,16 @@ const TeamPage = () => {
             <CardContent>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {achievements.map((achievement, index) => (
-                  <div key={index} className="text-center p-4 bg-white rounded-lg shadow-sm hover-lift">
+                  <div
+                    key={index}
+                    className="text-center p-4 bg-white rounded-lg shadow-sm hover-lift"
+                  >
                     <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
                       <Award className="w-6 h-6 text-orange-600" />
                     </div>
-                    <h4 className="font-semibold text-gray-900 text-sm">{achievement}</h4>
+                    <h4 className="font-semibold text-gray-900 text-sm">
+                      {achievement}
+                    </h4>
                   </div>
                 ))}
               </div>
@@ -208,31 +236,47 @@ const TeamPage = () => {
                   Team Trinetra Values
                 </h3>
                 <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-                  We believe in innovation, collaboration, and creating meaningful impact through technology
+                  We believe in innovation, collaboration, and creating
+                  meaningful impact through technology
                 </p>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Users className="w-8 h-8 text-orange-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Collaboration</h4>
-                  <p className="text-gray-600">Working together to build something greater than the sum of its parts</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                    Collaboration
+                  </h4>
+                  <p className="text-gray-600">
+                    Working together to build something greater than the sum of
+                    its parts
+                  </p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Code className="w-8 h-8 text-green-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Innovation</h4>
-                  <p className="text-gray-600">Pushing boundaries and exploring new possibilities in technology</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                    Innovation
+                  </h4>
+                  <p className="text-gray-600">
+                    Pushing boundaries and exploring new possibilities in
+                    technology
+                  </p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Award className="w-8 h-8 text-purple-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Impact</h4>
-                  <p className="text-gray-600">Creating solutions that make a real difference in people's lives</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                    Impact
+                  </h4>
+                  <p className="text-gray-600">
+                    Creating solutions that make a real difference in people's
+                    lives
+                  </p>
                 </div>
               </div>
             </CardContent>
@@ -240,7 +284,7 @@ const TeamPage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TeamPage
+export default TeamPage;
