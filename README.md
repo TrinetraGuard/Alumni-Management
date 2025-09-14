@@ -2,7 +2,7 @@
 
 > **AI + Blockchain powered Digital Alumni Engagement & Data Management Platform**
 
-A modern, professional showcase website for Allumino, built by Team Trinetra for Smart India Hackathon 2024.
+A modern, professional showcase website for Allumino, built by Team Trinetra for Smart India Hackathon 2025.
 
 ## 🚀 Features
 
@@ -134,9 +134,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: [@trinetra/allumino](https://github.com/trinetra/allumino)
 - **LinkedIn**: [Team Trinetra](https://linkedin.com/company/trinetra)
 
-## 🏆 Smart India Hackathon 2024
+## 🏆 Smart India Hackathon 2025
 
-This project was developed for Smart India Hackathon 2024, showcasing innovative solutions for alumni engagement and management using AI, Blockchain, and Cloud technologies.
+This project was developed for Smart India Hackathon 2025, showcasing innovative solutions for alumni engagement and management using AI, Blockchain, and Cloud technologies.
 
 ---
 

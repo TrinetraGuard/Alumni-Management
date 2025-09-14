@@ -104,7 +104,7 @@ export const useSEO = ({
     return () => {
       document.title = 'Allumino - AI-Powered Alumni Management Platform | Smart Alumni Ecosystem'
       
-      const defaultDescription = "Transform alumni engagement with Allumino's AI-powered platform. Centralized alumni hub, smart mentor matching, blockchain security, and transparent donations. Built by Team Trinetra for Smart India Hackathon 2024."
+      const defaultDescription = "Transform alumni engagement with Allumino's AI-powered platform. Centralized alumni hub, smart mentor matching, blockchain security, and transparent donations. Built by Team Trinetra for Smart India Hackathon 2025."
       
       if (metaDescription) {
         metaDescription.setAttribute('content', defaultDescription)
@@ -117,7 +117,7 @@ export const useSEO = ({
 export const seoData = {
   home: {
     title: 'Allumino - AI-Powered Alumni Management Platform | Smart Alumni Ecosystem',
-    description: "Transform alumni engagement with Allumino's AI-powered platform. Centralized alumni hub, smart mentor matching, blockchain security, and transparent donations. Built by Team Trinetra for Smart India Hackathon 2024.",
+    description: "Transform alumni engagement with Allumino's AI-powered platform. Centralized alumni hub, smart mentor matching, blockchain security, and transparent donations. Built by Team Trinetra for Smart India Hackathon 2025.",
     keywords: 'alumni management, AI-powered platform, mentor matching, blockchain security, alumni engagement, smart alumni ecosystem, educational technology, alumni donations, career networking, educational innovation',
     canonicalUrl: 'https://allumino.teamtrinetra.com/'
   },
@@ -165,7 +165,7 @@ export const seoData = {
   },
   team: {
     title: 'Our Team - Meet Team Trinetra | Allumino',
-    description: 'Meet the talented Team Trinetra behind Allumino. Learn about our expertise in AI, blockchain, cloud computing, and educational technology. Smart India Hackathon 2024 finalists.',
+    description: 'Meet the talented Team Trinetra behind Allumino. Learn about our expertise in AI, blockchain, cloud computing, and educational technology. Smart India Hackathon 2025 finalists.',
     keywords: 'Team Trinetra, development team, AI experts, blockchain developers, cloud engineers, educational technology team, Smart India Hackathon, team members',
     canonicalUrl: 'https://allumino.teamtrinetra.com/team'
   },
