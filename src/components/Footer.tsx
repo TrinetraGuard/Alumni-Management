@@ -1,19 +1,19 @@
 import {
-    Award,
-    Download,
-    ExternalLink,
-    Github,
-    Heart,
-    Linkedin,
-    Mail,
-    MapPin,
-    Phone,
-    Users
+  Award,
+  Download,
+  ExternalLink,
+  Github,
+  Heart,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  Users
 } from 'lucide-react'
 
-import { Button } from './ui/button'
-import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import { Button } from './ui/button'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
